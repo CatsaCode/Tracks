@@ -6,7 +6,7 @@
   "info": {
     "name": "Tracks",
     "id": "tracks",
-    "version": "1.1.0",
+    "version": "2.4.5",
     "url": "https://github.com/StackDoubleFlow/Tracks",
     "additionalData": {
       "overrideSoName": "libtracks.so",
@@ -28,7 +28,7 @@
         "pwsh ./scripts/copy.ps1 --release"
       ]
     },
-    "ndk": "^27.2.12479018",
+    "ndk": "^27.3.13750724",
     "qmodIncludeDirs": [
       "./build",
       "./extern/libs"
@@ -46,14 +46,14 @@
     },
     {
       "id": "bs-cordl",
-      "versionRange": "4007.*",
+      "versionRange": "4008.*",
       "additionalData": {
         "includeQmod": true
       }
     },
     {
       "id": "custom-json-data",
-      "versionRange": "^0.24.2",
+      "versionRange": "^0.24.4",
       "additionalData": {}
     },
     {
@@ -70,14 +70,14 @@
     },
     {
       "id": "custom-types",
-      "versionRange": "^0.18.3",
+      "versionRange": "^0.18.4",
       "additionalData": {
         "includeQmod": true
       }
     },
     {
       "id": "songcore",
-      "versionRange": "^1.1.23",
+      "versionRange": "^1.1.25",
       "additionalData": {}
     },
     {
